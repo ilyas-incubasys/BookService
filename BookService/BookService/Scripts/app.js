@@ -15,7 +15,7 @@
 
     var booksUri = '/api/books/';
     var authorsUri = '/api/authors/';
-
+    
     function ajaxHelper(uri, method, data) {
         self.error(''); // Clear error message
         return $.ajax({
